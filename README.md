@@ -85,10 +85,10 @@ http://localhost:5173
 
 ##  API Endpoints
 
-* POST `/api/auth/register`
-* POST `/api/auth/login`
-* GET `/api/auth/me`
-* GET `/api/auth/logout`
+* POST `/api/v1/users/register`
+* POST `/api/v1/users/login`
+* GET `/api/v1/users/getMe`
+* GET `/api/v1/users/logout`
 
 ---
 
