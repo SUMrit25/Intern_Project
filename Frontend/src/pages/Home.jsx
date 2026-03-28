@@ -13,7 +13,7 @@ const Home = () => {
         const res = await axiosInstance.get("/getMe");
         setUser(res.data.user);
       } catch (err) {
-        console.error(err);
+        navigate("/login")
       }
     };
 
