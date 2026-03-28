@@ -13,7 +13,7 @@ const app = express();
 const port = process.env.port || 3000
 
 app.use(cors({
-    origin:["http://localhost:5173","https://intern-project-je3kqdzq5-sumrits-projects.vercel.app"],
+    origin: true,
     credentials: true,
     methods:['GET', 'POST', 'DELETE', 'OPTIONS'],
     allowedHeaders:['Content-Type', 'Authorization']
